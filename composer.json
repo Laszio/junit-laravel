@@ -1,0 +1,24 @@
+{
+    "name": "laszio\/junit-laravel",
+    "description": "this is junit laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laszio",
+            "email": "1540425544@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laszio\\JunitLaravel\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Laszio\\JunitLaravel\\Providers\\JunitServiceProvider"
+            ]
+        }
+    }
+}
