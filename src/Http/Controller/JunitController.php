@@ -10,7 +10,7 @@ class JunitController extends Controller
 {
 	public function index()
 	{
-		return view('sergeli::index');
+		return view('laszio::index');
 	}
 
 	/**
